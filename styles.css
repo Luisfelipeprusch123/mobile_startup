@@ -53,7 +53,6 @@ body.dark-mode {
     z-index: 999;
 
 }
-  /* Estilos para a barra de navegação */
         .navbar {
           
             color: white;
@@ -63,3 +62,63 @@ body.dark-mode {
             width: 100%;
             z-index: 1000;
         }
+
+
+// Login 
+
+.login-container {
+    background-color: white;
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    width: 300px;
+    text-align: center;
+}
+
+.login-container h2 {
+    margin-bottom: 20px;
+    color: #333;
+}
+
+.login-container input {
+    width: 100%;
+    padding: 10px;
+    margin: 10px 0;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+}
+
+.login-container button {
+    width: 100%;
+    padding: 10px;
+    background-color: #5cb85c;
+    border: none;
+    border-radius: 5px;
+    color: white;
+    font-size: 16px;
+    cursor: pointer;
+}
+
+.login-container button:hover {
+    background-color: #4cae4c;
+}
+
+
+/* Estilos responsivos para dispositivos móveis */
+@media (max-width: 480px) {
+    .login-container {
+        width: 90%;
+        padding: 15px;
+    }
+
+    .login-container h2 {
+        font-size: 18px;
+        margin-bottom: 15px;
+    }
+
+    .login-container input,
+    .login-container button {
+        padding: 12px;
+        font-size: 14px;
+    }
+}
